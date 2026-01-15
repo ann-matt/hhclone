@@ -5,7 +5,7 @@ import path from 'node:path'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-   base: '/<hhclone>/',
+   base: '/hhclone/',
    build: {
     outDir: 'docs',
     emptyOutDir: true,
